@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <h1>Personal Details</h1>
+        <label for="name">Name</label>
+        <input type="text" pattern="[a-zA-Z]{,3}" id="name" title="minimum 3 letters required" placeholder="enter name">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="You@example.com" required>
+        <br><br>
+       
+        <label for="Age">Age</label>
+        <input type="number" min="18" max="60">
+        <br><br>
+        <label for="phone">phone</label>
+        <input type="text" pattern="[0-9]{10}" title="enter exactly 10 digits" placeholder="Enter phone" >
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" value="male" name="gender" required>Male
+        <input type="radio" value="female" name="gender" required>Female
+        <input type="radio" value="others" name="gender" required>Others
+        <br><br>
+        <label for="language">Languages:</label>
+        <input type="checkbox" value="English" id="language">English
+        <input type="checkbox" value="hindi" id="language">Hindi
+        <input type="checkbox" value="punjabi" id="language">punjabi
+        <input type="checkbox" value="spanish" id="language">spanish
+        <br><br>
+         <label for="password">Password</label>
+        <input type="password" id="password" max="12" min="6" placeholder="Enter password" >
+        <br><br> <label for="cpassword">Confirm Password</label>
+        <input type="cpassword" id="cpassword"  >
+        <br><br>
+        <input type="submit" >
+
+    </form>
+    
+</body>
+</html>
