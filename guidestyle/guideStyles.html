@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML encoding</title>
+    <style>table {
+    border-collapse: collapse; 
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+    <section>
+        <h1 style="color:blue;">1.Emojis in HTML</h1>
+        <p>Direct Emoji example 😊😊😊😊😊😊😊😊😊😊</p>
+        <p>Another Emoji ❤️</p>
+        <p>Using unicode Entity:x1F600 →&#x1F600 </p>
+        <p>We👍HTML AND CSS😂</p>
+    </section>
+    <section>
+        <h1 style="color:blue">2.Asci character Table</h1>
+        <table >
+            <tr><th>Character</th><th>ASCII Value</th></tr>
+            <tr><td>&#65;</td><td>65</td></tr>
+                <tr><td>&#97;</td><td>97</td></tr>
+                    <tr><td>&#48;</td><td>48</td></tr>
+                        <tr><td>	&#64;</td><td>64</td></tr>
+                            <tr><td>	&#32;space</td><td>32</td></tr>
+                                <tr><td>	&#36;</td><td>36</td></tr>
+
+        </table>
+        <p>Ascii helps in coverting characters into that computer can understand.</p>
+    </section>
+    <section>
+    <h1 style="color:blue">3.Url encoding</h1>
+        <h3>before encoding</h3>
+        <p>https://www.monody.com?name=hello world?&email=gog@gmail.com</p>
+        <h3>after encoding</h3>
+        <p>https://www.monody.com?name=hello%20world%3f&email=gog%40gmail.com</p>
+
+        <p>Some encided characters:</p>
+        <ul>
+            <li>Space → %20</li>
+             <li>& → %26</li>
+              <li>= → %3D</li>
+               <li>? → %3f</li>
+        </ul>
+
+
+    
+    </section>
+    <section>
+        <h1 style="color:blue">4.Guide style</h1>
+        <h3>❌Messy code</h3>
+        <pre><code>&lt;DIV&gt;&lt;IMG src=cat.jpeg&gt;&lt;h1&gt;Welcome&lt;/H1&gt;&lt;/DIV&gt;</code></pre>
+
+        <h3>✅Fixed html</h3>
+        <pre><code>
+    &lt;div&gt;
+        &lt;img src="cat.jpeg" alt="cute-cat"&gt;
+        &lt;h1&gt;welcome&lt;/h1&gt;
+    &lt;/div&gt;
+    </code></pre>
+
+        
+
+    </section>
+
+
+    
+</body>
+</html>
