@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="travel.jpg" type="image">
+</head>
+<body>
+    <header>
+        <h1>My Travel Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#destination">Destination</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main  >
+        <section id="blog">
+            <h2>Exploring Tokyo</h2>
+            <div id="blog-content">
+            <img src="tokyo.jpeg" height="300" width="50%" style="margin-left: auto;margin-right: auto;" alt="Tokyo">
+            
+            <p>Tokyo, the bustling capital of Japan, is a city that seamlessly blends tradition and modernity. From ancient temples to futuristic skyscrapers, Tokyo offers a unique travel experience.it,s 
+a city that never sleeps, with something for everyone. Whether you're exploring the historic Asakusa district, shopping in Shibuya, or enjoying the serene beauty of Ueno Park, Tokyo is a city that captivates and inspires.
+from the vibrant streets of Shibuya to the serene gardens of Ueno, Tokyo is a city that never fails to amaze. The blend of ancient traditions and cutting-edge technology creates a unique atmosphere that is both exciting and calming.</p>
+</div>
+       
+        </section>
+        <section id="destination" >
+            <h2>Top 3 Travel Destination</h2>
+            <table>
+                <tr><th>rank</th><th>Country</th><th>Best time to visit</th><th>Language</th></tr>
+                <tr><td>1</td><td>Japan</td><td>March to May</td><td>Japanese</td></tr>
+                <tr><td>2</td><td>France</td><td>April to June</td><td>French</td></tr>
+                <tr><td>3</td><td>Italy</td><td>April to June</td><td >Italian</td></tr>
+
+            </table>
+
+
+        </section>
+        <section id="quote">
+            <h2>Word i go by</h2>
+            <blockquote>
+                <p>"Traveling – it leaves you speechless, then turns you into a storyteller." – Ibn Battuta</p>
+
+            </blockquote>
+        </section>
+        <section id="video">
+            <h2>Travel video</h2>
+            <video  width="400" controls autoplay muted loop poster="travel.jpg">
+                <source src="tokyo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <audio id="audio" autoplay loop>
+            <source src="travel.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+            </audio>
+
+    
+    <section id="contact">
+        <h2>Travel form</h2>
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="favdest">Favorite Destination</label><br>
+            <select id="favdest" name="favdest">
+                <option>Japan</option>
+                <option>France</option>
+                <option>Italy</option>  
+                <option>Spain</option>
+                <option>Germany</option>
+                <option>USA</option>
+                <option>Canada</option>
+                <option>Australia</option>
+                <option>India</option>
+            </select><br><br>
+            <label for="message">Message</label><br>
+            <textarea id="message"> </textarea><br><br>
+
+            <input type="submit" value="Submit">
+          </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2025 My Travel Blog</p>
+    </footer>
+    
+</body>
+</html>
