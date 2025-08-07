@@ -1,0 +1,23 @@
+#box{
+    width:100px;
+    height:100px;
+    top:200px;
+    left:200px;
+    color: white;
+    background-color: green;
+    animation: coloranimate;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes coloranimate {
+    from{
+        background-color:green;
+    }
+    to{
+        background-color: lightblue;
+    }
+    
+}
