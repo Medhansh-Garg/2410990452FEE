@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box{
+
+
+    background-color: navajowhite;
+    width:300px;
+    padding-top:20px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:25px;
+
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom:50px;
+    margin-right: 300px;
+
+
+    border-top:5px solid red;
+    border-right:10px dashed blue;
+    border-bottom:dotted 5px green;
+    border-left:6px solid orange;
+}
+
+.box2{
+    
+    background-color: rgb(173, 255, 211);
+    width:250px;
+    padding:20px 10px 15px 20px;
+
+    
+    margin-left: 200px;
+
+
+    border:2px solid black;
+    border-top:red solid 5px;
+    border-bottom:brown dashed 3px;
+
+}
