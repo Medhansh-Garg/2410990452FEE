@@ -9,10 +9,12 @@ console.log(tag);
 const box1=document.getElementById('box1');
 
 box1.classList.add('round-border');
+
 const boxes=document.getElementsByClassName('box');
 for(let i=0;i<boxes.length;i++){
     boxes[i].classList.add('round-border');
 }
+
 const newPara=document.createElement('p');
 newPara.innerText="suppose this is new para";
 const cont=document.getElementsByTagName('container');
@@ -25,3 +27,8 @@ function myfun2(){
     console.log('mouse is over');
     
 }
+const box3=document.getElementById('box3');
+box3.addEventListener('click',()=>{
+    console.log("box3 clicked");
+
+})
