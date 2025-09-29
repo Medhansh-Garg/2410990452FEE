@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#product-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+#product-list li button{
+    margin-left:10px;
+    
+    
+    
+}
