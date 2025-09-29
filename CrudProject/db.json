@@ -35,11 +35,10 @@
       "description": "This is description about product 7"
     },
     {
-      "id": 8,
-      "title": "Product 8",
-      "category": "furniture",
-      "price": 7000,
-      "description": "This is description about product 8"
+      "title": null,
+      "category": "updated",
+      "price": 9999,
+      "id": 8
     },
     {
       "id": 9,
@@ -49,10 +48,10 @@
       "description": "This is description about product 9"
     },
     {
-      "id": 12,
-      "title": "products 11",
-      "category": "furniture",
-      "price": 7000
+      "title": "bi",
+      "category": "updated",
+      "price": 9999,
+      "id": 12
     },
     {
       "title": "klaus",

@@ -1,7 +1,12 @@
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    background: #f6f8fa;
+}
+#heading{
+    text-align: center;
 }
 
 
@@ -9,13 +14,34 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+    gap: 12px;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+    margin-bottom: 8px;
 }
 
+#product-list li .button-group {
+    display: flex;
+    gap: 10px;
+}
 
 #product-list li button{
-    margin-left:10px;
-    
-    
-    
+
+    min-width: 80px;
+    padding: 6px 14px;
+    border-radius: 4px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    cursor: pointer;
+}
+
+#product-list li button:hover {
+    background: #0056b3;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
 }
