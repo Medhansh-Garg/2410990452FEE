@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h1>Welcome to my home page</h1>
+    <p><a href="about.html">About us</a></p>
+    <button onclick="handleContent()">load content</button>
+   <div id="container"></div>
+    <script> function handleContent(){
+        
+        let req=new XMLHttpRequest();
+        req.open('GET','data.json');
+        req.onreadystatechange=function(){
+            
+            if(req.readyState === 4 && req.status === 200){
+                
+                document.getElementById("container").innerHTML=req.responseText;
+            }
+        }
+        req.send();
+    }
+    </script>
+</body>
+</html>
+
